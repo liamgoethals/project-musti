@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "project musti"
+version = "0.1.0"
+description = "MUSTI"
+authors = ["liwago <liam.goethals@wegroup.be>"]
+
+[tool.poetry.dependencies]
+python = "3.9.12"
+orjson = "^3.6.8"
+sklearn = "^0.0"
+matplotlib = "^3.5.1"
+pandas = "^1.4.2"
+PyQt6 = "^6.3.0"
+openpyxl = "^3.0.9"
+scikit-image = "^0.19.2"
+pathlib = "^1.0.1"
+opencv-python = "^4.5.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
